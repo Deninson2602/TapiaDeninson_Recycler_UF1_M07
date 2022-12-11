@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <item name="spinner" type="id" />
+    <string-array name="valores_array">
+        <item>+ 34</item>
+        <item>+ 32</item>
+        <item>+ 64</item>
+        <item>+ 51</item>
+        <item>+ 79</item>
+    </string-array>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="645dp"
+            android:inputType="text" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Compartir"
+        android:onClick="goMoreButtons"
+        android:textColor="@color/black"
+        android:background="@color/cardview_shadow_start_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imagenperrobt"
+        android:layout_width="249dp"
+        android:layout_height="193dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:onClick="goLayoutBotons"
+        app:srcCompat="@drawable/la_enegia_en_la_vida_de_tu_cachorro"
+        tools:ignore="OnClick" />
+
+    <GridLayout
+        android:layout_width="327dp"
+        android:layout_height="210dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="400dp"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="2">
+
+        <TextView
+            android:layout_columnWeight="13"
+            android:text="Probando" />
+
+        <TextView
+            android:layout_columnWeight="13"
+            android:text="las posiciones" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:text="de las celdas" />
+
+        <TextView
+            android:layout_columnWeight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            />
+
+        <TextView
+            android:layout_columnWeight="13"
+            android:text="2" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:text="3" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:text="4" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:text="5" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:text="6" />
+
+    </GridLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="570dp"
+        android:onClick="goRelativeLayout"
+        app:srcCompat="@drawable/flecha_correcta" />
+
+</FrameLayout>

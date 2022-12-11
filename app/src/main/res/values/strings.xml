@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LayoutBotonesDef</string>
+    <string name="imagen_1">Imagen 1</string>
+    <string name="imagen_2">Imagen 2</string>
+    <string name="text_exemple">Formulario</string>
+</resources>

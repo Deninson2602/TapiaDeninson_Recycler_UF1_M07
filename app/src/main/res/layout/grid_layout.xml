@@ -1,0 +1,39 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="4">
+
+    <TextView android:text="Imagen perrito"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32dp"
+        />
+    <TextView android:text="Probando celdas"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32dp"
+        />
+    <TextView android:text="texto izquierda espero"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32dp"
+        />
+    <TextView android:text="Imagen perrito pero txt"
+        android:layout_columnSpan="3"
+        android:layout_columnWeight="2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32dp"
+        />
+
+    <ImageButton android:text=""
+        android:layout_columnSpan="4"
+        app:srcCompat="@drawable/flecha_correcta"
+        android:layout_gravity="right"
+        android:onClick="goLinearLayout"
+        />
+
+</GridLayout>
